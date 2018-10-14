@@ -12,7 +12,7 @@ userdb=usercollection["users"]
 
 """  User add to mongodb database """
 @app.route('/adduser',methods=['post'])
-def post():
+def adduser():
 	userdata = {
 			'name':request.form['username'] ,
 			'password':request.form['pass'],
