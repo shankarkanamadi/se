@@ -1,6 +1,5 @@
-se
+**Software Engineering Project**
 
-se project
 install flask,pymongo in python and mongodb server
 
 ```
